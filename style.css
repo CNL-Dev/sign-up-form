@@ -10,3 +10,8 @@ img {
     display: flex;
     flex-direction: row;
 }
+
+.right-content-container {
+    display: flex;
+    flex-direction: column;
+}
