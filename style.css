@@ -6,6 +6,11 @@ img {
     max-height: 100vh;
 }
 
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 li {
     display: flex;
     flex-direction: column;
