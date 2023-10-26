@@ -6,6 +6,11 @@ img {
     max-height: 100vh;
 }
 
+li {
+    display: flex;
+    flex-direction: column;
+}
+
 .body-container {
     display: flex;
     flex-direction: row;
