@@ -1,9 +1,11 @@
 :root {
     --dark-grey: #A9A9A9;
+    --black: #28282B;
 }
 
 img {
     max-height: 100vh;
+    min-width: 25vh;
 }
 
 ul {
@@ -24,6 +26,10 @@ li {
 .right-content-container {
     display: flex;
     flex-direction: column;
+}
+
+.text-container {
+    color: var(--black);
 }
 
 .form-container {
