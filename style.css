@@ -1,5 +1,5 @@
 :root {
-    
+    --dark-grey: #A9A9A9;
 }
 
 img {
@@ -24,4 +24,8 @@ li {
 .right-content-container {
     display: flex;
     flex-direction: column;
+}
+
+.form-container {
+    box-shadow: 5px 5px 5px var(--dark-grey);
 }
