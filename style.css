@@ -18,6 +18,17 @@ li {
     flex-direction: column;
 }
 
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px var(--dark-grey);
+}
+
+p {
+    color: var(--black);
+}
+
 .body-container {
     display: flex;
     flex-direction: row;
@@ -29,9 +40,14 @@ li {
 }
 
 .text-container {
-    color: var(--black);
+    font-size: 30px;
+    margin: 40px 40px 50px 50px;
 }
 
 .form-container {
     box-shadow: 5px 5px 5px var(--dark-grey);
+}
+
+.button-container {
+    margin: 30px;
 }
