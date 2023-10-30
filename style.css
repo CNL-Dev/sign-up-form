@@ -6,7 +6,7 @@
     --black: #28282B;
 }
 
-body {
+html {
     background-color: var(--light-grey);
 }
 
