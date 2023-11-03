@@ -4,6 +4,8 @@
     --light-grey: #EEEEEE;
     --dark-grey: #A9A9A9;
     --black: #28282B;
+    --light-green: #228B22;
+    --dark-green: #4F7942;
 }
 
 html {
@@ -23,6 +25,7 @@ ul {
 li {
     display: flex;
     flex-direction: column;
+    padding: 5px;
 }
 
 button {
@@ -30,6 +33,12 @@ button {
     height: 50px;
     border-radius: 10px;
     box-shadow: 3px 3px 3px var(--dark-grey);
+    background-color: var(--dark-green);
+}
+
+input {
+    width: 25vh;
+    min-width: 20vh;
 }
 
 p {
@@ -62,4 +71,8 @@ p {
 
 .button-container-text {
     font-size: 22px;
+}
+
+input:focus {
+    background-color: var(--light-green);
 }
