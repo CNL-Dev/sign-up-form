@@ -12,9 +12,8 @@ html {
     background-color: var(--light-grey);
 }
 
-img {
-    max-height: 100vh;
-    min-width: 25vh;
+body {
+    height: 100vh;
 }
 
 ul {
@@ -71,6 +70,12 @@ p {
 
 .button-container-text {
     font-size: 22px;
+}
+
+.image-container {
+    background-image: url(resources/syuhei-inoue-torii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input:focus {
