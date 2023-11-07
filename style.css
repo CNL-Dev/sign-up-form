@@ -87,7 +87,7 @@ p {
 
 .image-container {
     height: 100vh;
-    width: 40vh;
+    width: 60vh;
     background-image: url(resources/syuhei-inoue-torii.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,6 +105,11 @@ p {
 
 .logo-container img {
     max-height: 100%;
+}
+
+.image-credits-container {
+    position: absolute;
+    bottom: 0;
 }
 
 input:focus {
