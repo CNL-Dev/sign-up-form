@@ -8,12 +8,20 @@
     --dark-green: #4F7942;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background-color: var(--light-grey);
 }
 
 body {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -51,6 +59,9 @@ p {
     align-items: center;
 }
 
+.left-content-container {
+}
+
 .right-content-container {
     display: flex;
     flex-direction: column;
@@ -75,10 +86,11 @@ p {
 }
 
 .image-container {
+    height: 100vh;
+    width: 40vh;
     background-image: url(resources/syuhei-inoue-torii.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: inherit
 }
 
 .logo-container {
@@ -86,6 +98,9 @@ p {
     justify-content: center;
     align-items: center;
     height: 150px;
+    position: absolute;
+    top: 250px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .logo-container img {
