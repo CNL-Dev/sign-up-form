@@ -59,9 +59,6 @@ p {
     align-items: center;
 }
 
-.left-content-container {
-}
-
 .right-content-container {
     display: flex;
     flex-direction: column;
@@ -95,16 +92,22 @@ p {
 
 .logo-container {
     display: flex;
+    width: 60vh;
     justify-content: center;
     align-items: center;
     height: 150px;
     position: absolute;
     top: 250px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);    
 }
 
 .logo-container img {
     max-height: 100%;
+}
+
+.logo-container p {
+    color: var(--white);
+    font-size: 75px;
 }
 
 .image-credits-container {
