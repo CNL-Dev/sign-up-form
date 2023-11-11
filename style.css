@@ -8,6 +8,11 @@
     --dark-green: #4F7942;
 }
 
+@font-face {
+    font-family: Norse;
+    src: url('resources/Norse-Bold.otf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -72,6 +77,7 @@ p {
 .form-container {
     background-color: var(--white);
     box-shadow: 5px 5px 5px var(--dark-grey);
+    padding: 15px;
 }
 
 .button-container {
@@ -107,12 +113,17 @@ p {
 
 .logo-container p {
     color: var(--white);
-    font-size: 75px;
+    font-size: 145px;
+    font-family: Norse;
 }
 
 .image-credits-container {
     position: absolute;
     bottom: 0;
+}
+
+.image-credits-container p {
+    color: var(--white);
 }
 
 input:focus {
