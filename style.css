@@ -80,6 +80,10 @@ p {
     padding: 15px;
 }
 
+.form-container p {
+    font-size: 35px;
+}
+
 .button-container {
     margin: 30px;
 }
